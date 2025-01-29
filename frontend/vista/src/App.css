@@ -1,0 +1,75 @@
+
+.landingPageContainer{
+  width: 100vw;
+  color: white;
+  height: 100vh;
+  padding:15px 20px;
+  background: url("/public/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landingPageContainer nav{
+  padding-inline:1.2rem;
+  padding-block:1.2rem;
+  border-radius:5px;
+  /* border-bottom: px solid #156ee2; */
+  display: flex;
+  /* background-color: rgba(182, 179, 179, 0.1); */
+  /* background-color:#F8FAFC ; */
+  background-color: #F2F9FF;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+}
+
+.landingPageContainer nav img{
+  width: 2.4rem;
+}
+
+.logodiv{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  font-weight: 500;
+}
+.logoTitle{
+  font-size:24px;
+}
+
+.landingPageContainer nav .navList{
+  display: flex;
+  cursor: pointer;
+  gap:1.6rem;
+}
+
+.landingMainContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-top:10vh; */
+  height: 78vh;
+}
+
+.landingMainContainer img{
+  width:650px;
+  border-radius: 10px;
+}
+
+.landingMainContainer > div:nth-child(1){
+  font-size:1.3rem;
+} 
+
+.landingMainContainer > div:nth-child(1) div[role="button"]{
+  background: #0066FF;
+  width: fit-content;
+  padding:8px 10px;
+  border-radius: 5px;
+  border-bottom:2px solid white;
+  margin-top: 1.9rem;
+} 
+
+.landingMainContainer > div:nth-child(1) div[role="button"] a {
+  text-decoration: none;
+  color: white;
+}
