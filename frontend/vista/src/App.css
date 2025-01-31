@@ -4,7 +4,8 @@
   color: white;
   height: 100vh;
   padding:15px 20px;
-  background: url("/public/background.jpeg");
+  background: url("/background.jpeg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
